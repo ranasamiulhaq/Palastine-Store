@@ -1,0 +1,84 @@
+.banner-pl {
+  color: rgb(244, 218, 52);
+  background: url("../images/home.png") no-repeat center center;
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  margin: 2%;
+  margin-top: 50px;
+  height: 65vh;
+  transition: all 0.2s ease-out;
+  font-weight: 900;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner-pl label{
+  font-size: 10vh;
+}
+.banner-pl:hover{
+  transform: scale(1.01);
+}
+
+.blog-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  
+}
+
+
+.save {
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.card_info {
+  height: 200px;
+  /* border: 2px solid rgb(255, 216, 41); */
+  background-color:  rgb(227, 190, 27);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  transition: all .5s ease;
+  margin: 2%;
+  padding: 2%;
+}
+
+.page {
+  font-size: 16px;
+  font-weight: 100;
+  
+  color: rgb(255, 255, 255);
+}
+
+.title {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+  color: black ;
+}
+
+.content {
+  font-size: 18px;
+  
+}
+
+.card_info:hover .image {
+  filter: brightness(.8);
+}
+
+.card_info:hover{
+  transform: scale(1.03);
+}

@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(255, 247, 192);
+}
+
+.container {
+    border-radius: 20px;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    background-color : rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: rgb(53, 53, 53)g;
+    color:rgb(53, 53, 53) ;
+}
+#sign{
+    background-color: rgb(244, 218, 52);
+    border: none;
+    color: #000000;
+}
+#log{
+    background-color: rgb(10, 10, 10);
+    border: none;
+    color: #f8f9fa;   
+}
+.btn a {
+    color: #f8f9fa;
+}
+
+#signA{
+    color: black;
+}
+.footer-text a{
+    color: #000000;
+}
+.login{
+    color: #000000;
+}
